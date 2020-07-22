@@ -7,40 +7,91 @@
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
+	
 }
 
 section{
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 60px;
+	margin-bottom: 320px;
+	font-size: 20px
 }
 
 header{
-	background-color: darkOrange;
+	background-color: #88BDBC;
 	color: white; /* more readable on an orange background */
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 120px;
+	padding-bottom: 125px;
+	font-size: 25px
+
 }
 
 nav{
 	width: 100%;
-	height: 60px;
-	background-color: wheat;
+	height: 70px;
+	background-color: #254E58;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	color: #E7E3D4
+	font-size:80px; 
+
+
+
+
 }
 
 nav a, nav h3{
+	  display: block;
 	float: left;
+	color: #E7E3D4 ;
 	margin: 0px;
-	line-height: 60px;
-	margin-left: 1em;
-	margin-right: 1em;
+	line-height: 70px;
+	margin-left: 5em;
+	margin-right: 5em;
 	text-decoration: none;
+	background-color: #254E58
+	padding:110px 10px
+	
 }
 
+#active:active {
+	
+	
+}
+
+
 nav a:hover{
-	text-decoration: underline; /* Hover styles to let people know they can click it */
+  display: block;
+  padding: 30px;
+  background-color: #112D32;
+  width: 100%
+  color:#E7E3D4 ;
+  size: fixed
+  opacity: 0.1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+
+
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+.active {
+  background-color: #112D32;
+color: #E7E3D4 
+}
+
+
+
+.test{
+	margin-left: 90px; 
 }
 
 
@@ -71,7 +122,7 @@ nav a:hover{
 }
 
 .show{
-	border: 1px solid blue;
+	border: 1px white;
 	padding: 2px;
 }
 

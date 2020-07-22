@@ -10,144 +10,211 @@
 
 <body>
 
-<p class="test">Notice how this content isn't centered. To center it we need to wrap it</p>
 
-	<section>
-		<h1>Seeing Networks in Wellington</h1>
-		<p><em>Wellington’s network infrastructure is a lot like the city itself: messy, sprawling, and at times near-incomprehensible. However, the city’s tendency toward flux is a strange blessing for the infrastructure sightseer: markings and remnants of the network are almost everywhere, once you know how to look for them. </em></p>
-
-		<p>Notice how if you change the width of your browser it stays in the center</p>
-	</section>
-
-	<section>
-		<p>This is a simple nav bar, which is full width of the page</p>
 	</section>
 	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
+		<h3>Seeing Networks</h3>
+		<a id="active" href="#one">Manhole Covers</a>
+		<a href="#two">Antennae</a>
+		<a href="#three">CCTV Cameras</a>
+		<a href="#four">Powerlines</a>
 	</nav>
 
-	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
-	</section>
 
-	<section id="two">
-		<p><strong>Content number 2</strong></p>
-	</section>
 
-	<section id="three">
-		<p><strong>Content number 3</strong></p>
-	</section>
 
-	<header>
+	<section></section>
 		<section>
-			<h1>This header has a solid background and some padding</h1>
-			<p>There is also a section tag inside it to center this content</p>
+			<h1>Seeing Networks in Wellington</h1>
+			<p>Wellington’s network infrastructure is an entire networking ecosystem in which everything is connected either directly or indirectly. Everywhere you see you can find pieces of the network infrastructure in the city. Antennas, powerlines, manholes, security cameras, etc. are some of the most common objects you see but never realise were important parts of the infrastructure.   </p>
 		</section>
 	</header>
 
-	
-
-	<section>
-		<h3>Grids</h3>
-
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
-
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-
-			<div class="g-30 show">
-				30% width .g-30
-			</div>
-
-			<div class="g-70 show">
-				70% width .g-70
-			</div>
-		</div>
-
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
-
-		<p>Here's a simple page using all of these elements</p>
+    <p></p>
+     
 	</section>
 
 	<header>
-		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<section id="one"></section>
+		<header></header>
+			<h1>Manhole Covers</h1>
+			<p>A manhole is a unit constructed underground to provide access to the utilities like a sewer system, drainage system, etc. Hence, with the help of a manhole, underground utilities are inspected, modified, cleaned and maintained.But these underground tunnels in a way are interconnected </p>
 		</section>
 	</header>
 
 	<section>
+		</div>
+			<div class="g-70 padded">
+				<h3>Manhole Cover</h3>
+				<p>As networking capabilities increase, much of the technology used to provide various connections to networks is situated below us. Through underground networks of cables, data is sent to and from our homes and the rest of the world. Networking connections don't just exist on top of roofs or tall buildings,they exist even underground.</p>
+			</div>
+
+        <div class="g-row">
+			<div class="g-30">
+				<img src="img/cover1.jpg" style="float:left;width: 490px;height: 600px"> 
+
+		
+			</div>
+		</div>
 		<div class="g-row">
 			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+				<img src="img/cover2.jpg" style="width: 490px;height: 600px;padding-left: 4px">
+
+		
 			</div>
 		</div>
 
 		<div class="g-row">
 			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+				<img src="img/cover3.jpg" style="float:left;width: 490px;height: 600px">
+
+			
 			</div>
 		</div>
 
 		<div class="g-row">
 			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
+				<img src="img/cover4.jpg" style="width: 490px;height: 600px;padding-left: 4px">
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
+
 		</div>
 	</section>
+
+<header>
+		<section id="two"></section>
+		<header></header>
+			<h1>Antennae</h1>
+			<p>An antenna or aerial is a metal device made to send or receive radio waves. Many electronic devices like radio, television, radar, wireless LAN, cell phone, and GPS need antennas to do their job.</p>
+		</section>
+	</header>
+
+	<section>
+		</div>
+			<div class="g-70 padded">
+				<h3>Antenna</h3>
+				<p>Though much of our internet is provided through cables and powerlines, antennae are everywhere. These enable various wireless networking for many different purposes. The antennae are most likely for networkctelevision or radio, and those are interconnected with network.</p>
+			</div>
+
+
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/ant1.jpg" style="float:left;width: 490px;height: 600px">
+
+			
+		</div>
+
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/ant2.jpg" style="width: 490px;height: 600px;padding-left: 4px">
+
+			
+		</div>
+
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/ant3.jpg" style="float:left;width: 490px;height: 600px">
+
+			
+		</div>
+
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/ant4.jpg" style="width: 490px;height: 600px;padding-left: 4px">
+
+			
+		</div>
+	</section>
+
+	<header>
+		<section id="three"></section>
+		<header></header>
+			<h1>CCTV Cameras</h1>
+			<p>Surveillance cameras are video cameras used for the purpose of observing an area. They are often connected to a recording device or IP network, and may be watched by a security guard or law enforcement officer.</p>
+		</section>
+	</header>
+
+	<section>
+		</div>
+			<div class="g-70 padded">
+				<h3>CCTV Camera</h3>
+				<p>CCTV cameras, or closed-circuit television cameras,is increasingly becoming a common sight in our daily lives. They're found mostly anywhere.The primary purpose of these cameras is for security as well as collecting data occasionally.These cameras send information to a wider network, and by doing so, connect us to that wider network.</p>
+			</div>
+
+
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/cam1.jpg" style="float:left;width: 490px;height: 600px">
+
+			
+		</div>
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/cam2.jpg" style="width: 490px;height: 600px;padding-left: 4px">
+
+
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/cam3.jpg" style="float:left;width: 490px;height: 600px"> 
+
+
+			
+		</div>
+
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/cam4.jpg" style="width: 490px;height: 600px;padding-left: 4px">
+
+			
+		</div>
+	</section>
+
+	<header>
+		<section id="four"></section>
+		<header></header>
+			<h1>Powerlines</h1>
+			<p>Powerlines transmit power generated at a variety of facilities and distributes it to end users, often over long distances. They provide electricity to buildings, industrial facilities, schools, and homes. And they do so every minute of every day, year-round.</p>
+		</section>
+	</header>
+
+	<section>
+		</div>
+			<div class="g-70 padded">
+				<h3>Powerline</h3>
+				<p>All across Wellington, you can find powerlines as they provide the power needed to ensure that the people of Wellington have access to electrical facilities or appliances.</p>
+			</div>
+
+
+			
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/line1.jpg" style="float:left;width: 490px;height: 600px">
+
+		
+		</div>
+
+		
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/line2.jpg" style="width: 490px;height: 600px;padding-left: 4px">
+
+			</div>
+		
+
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/line3.jpg" style="float:left;width: 490px;height: 600px">
+
+			</div>
+			
+		</div>
+
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/line4.jpg" style="width: 490px;height: 600px;padding-left: 4px">
+
+			
+	</section>
+
 
 </body>
 
